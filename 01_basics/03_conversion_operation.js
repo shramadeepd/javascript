@@ -21,4 +21,19 @@ let stringNumber = String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber);;
 
-let hello
+// operations 
+
+let value = 3
+let negValue = -value
+//console.log(negValue);
+
+let str1 = "shramadeep"
+let str2 = " hello"
+
+let str3 = str1 + str2 // adding str
+//console.log(str3);
+
+console.log(typeof("1" + 2 )); // watch too primitive ecma 
+console.log(typeof(1 + "2")); //use paranthesis
+
+console.log(+true); // watch prefix and postfix increment operator on mdn read it 
